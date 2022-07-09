@@ -1,0 +1,663 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml/DTD/xhtml-transitional.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>仓库信息管理系统</title>
+    <link rel="stylesheet" type="text/css" href="css/InformationManage.css">
+</head>
+<body>
+
+        <div class="wrapperBox">
+            <div class="header">
+                <div class="headerTitle">
+                    <div class="headerLine"> 仓库管理系统</div>
+                </div>
+                <div class="headerButton">
+                    <button class="addButton">新增</button>
+                    <button id="deleteButton">删除</button>
+                </div>
+            </div>
+            <div class="container">
+                <table id="containerTable">
+                    <thead class="tableHeaher">
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <th>名称</th>
+                        <th>库存</th>
+                        
+                        <th>单位</th>
+                        <th>产地</th>
+                        <th>采购价格</th>
+                        <th>存放地点</th>
+                        <th>存放时间</th>
+                        <th>采购厂商</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+
+                    <tbody id="tdata">
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+                    <tr class="trHover">
+                        <td><input type="checkbox"></td>
+                        <td class="name">麻辣王子</td>
+                        <td class="num">100</td>
+                        <td class="unit">袋</td>
+                        <td class="adds">湖南省</td>
+                        <td class="price">4.50</td>
+                        <td class="putAdds">D001</td>
+                        <td class="time">2021.01.31</td>
+                        <td class="supplier">大顺有限公司</td>
+                        <td>
+
+                            <a class="viewInf ">查看</a>
+                            <a class="updateInf ">修改</a>
+
+                        </td>
+                    </tr>
+
+                    </tbody>
+                    <tfoot>
+<!--                    <tr>-->
+<!--                        <td colspan="4">-->
+<!--                            <button class="delbtn ">删除</button>-->
+<!--                            -->
+<!--                        </td>-->
+<!--                    </tr>-->
+                    </tfoot>
+                    </tbody>
+                </table>
+                <!--增加的模态框-->
+                <div class="modal addfade" id="addmodal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <i>X</i>
+                                <h4>新增库存信息</h4>
+                            </div>
+                            <div class="modal-body">
+
+                                <p>
+                                    名称：<input type="text" />
+                                </p>
+                                <p>
+                                    库存：<input type="text" />
+                                </p>
+                                <p>
+                                    产地：<input type="text" />
+                                </p>
+                                <p>
+                                    采购厂商：<input type="text" />
+                                </p>
+                                <p>
+                                    采购价格：<input type="text" />
+                                </p>
+                                <p>
+                                    存放地点：<input type="text" />
+                                </p>
+                                <p>
+                                    支出数量：<input type="text" />
+                                </p>
+                                <p>
+                                    存放时间：<input type="text" />
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <div class="pageInfoBox"></div>
+                                <button class="addButton_ok">确定</button>
+                                <button class="addButton_no">取消</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--修改的模态框-->
+                <div class="modal movefade movemodal" id="movemodal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <i>X</i>
+                                <h4>修改库存信息</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    名称：<input type="text" />
+                                </p>
+                                <p>
+                                    库存：<input type="text" />
+                                </p>
+                                <p>
+                                    产地：<input type="text" />
+                                </p>
+                                <p>
+                                    采购厂商：<input type="text" />
+                                </p>
+                                <p>
+                                    采购价格：<input type="text" />
+                                </p>
+                                <p>
+                                    存放地点：<input type="text" />
+                                </p>
+                                <p>
+                                    支出数量：<input type="text" />
+                                </p>
+                                <p>
+                                    存放时间：<input type="text" />
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="updatabtn_ok">保存</button>
+                                <button class="updatabtn_no">取消</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--查看的模态框-->
+                <div class="modal viewfade" id="viewmodal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <i>X</i>
+                                <h4>查看库存信息</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    名称：<input type="text" class="viewStyle" disabled="disabled" />
+                                </p>
+                                <p>
+                                    库存：<input type="text" />
+                                </p>
+                                <p>
+                                    单位：<input type="text" />
+                                </p>
+                                <p>
+                                    产地：<input type="text" />
+                                </p>
+                                <p>
+                                    采购价格：<input type="text" />
+                                </p>
+                                <p>
+                                    存放地点：<input type="text" />
+                                </p>
+                                <p>
+                                    存放时间：<input type="text" />
+                                </p>
+                                <p>
+                                    采购厂商：<input type="text" />
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="addButton_no">取消</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="pageInformation">
+                    第<span id="curPage"></span>页，
+                    共<span id="countPage"></span>条，(每页显示10条)
+                    <input id="page" type="text"style="display: none" >
+                </div>
+                <div class="pageButton">
+                    <button id="prePageButton">上一页</button>
+                    <button id="nextPageButton">下一页</button>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/InformationManage.js"></script>
+</body>
+</html>
